@@ -1,0 +1,39 @@
+{
+    "name": "flw/signout",
+    "description": "Sign in sign out with locations",
+    "keywords": [
+        "flw",
+        "laravel",
+        "signin",
+        "signout"
+    ],
+    "homepage": "https://github.com/flw/signout",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Clinton",
+            "email": "flbrian@gmail.com",
+            "homepage": "https://flwebdesignservice.com",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Flw\\Signout\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ],
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Flw\\Signout\\": "src/"
+        }
+    }
+}
